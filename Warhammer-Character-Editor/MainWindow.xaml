@@ -1,0 +1,25 @@
+﻿<Window x:Class="WHeditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WHeditor"
+        mc:Ignorable="d"
+        Title="HelloThere"  
+        WindowStartupLocation="CenterScreen" 
+        ResizeMode="NoResize" 
+        WindowStyle="ThreeDBorderWindow" 
+        MinWidth="1024" 
+        MinHeight="720" Height="720" Width="1024"
+        Loaded="Window_Loaded"
+        >
+
+    <DockPanel>
+        <Frame Name="ParentFrame" NavigationUIVisibility="Hidden">
+            <Frame.Background>
+                <ImageBrush ImageSource="Images/Menu/Tło.jpg"/>
+            </Frame.Background>
+        </Frame>
+    </DockPanel>
+
+</Window>
